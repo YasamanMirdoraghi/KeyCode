@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: IranSans
+}
+
+
+body {
+	background: #bdbabac9;
+}
+
+#heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+	height: 100px;
+}
+
+#heading h1 {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#ascii {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	color: rgb(100, 98, 98);
+}
+
+#infos {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.info-box {
+	text-align: center;
+	width: 20%;
+	border: 1px solid #ccc;
+}
+
+.info-box h3 {
+	background: #1198d6;
+	border-bottom: 2px solid #1198d6;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.info-box h2 {
+	background: #fff;
+	padding: 5px;
+}
+
+#heading, #ascii, #infos {
+	display: none;
+}
+
+#starter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-weight: bolder;
+	height: 100vh;
+}
+
+#starter #starter-text {
+	background: #bdb9b9;
+	border: 1px solid rgb(114, 108, 108);
+	padding: 10px;
+	color: rgb(39, 36, 36);
+	text-shadow: 3px 2px 4px rgb(121, 117, 117);
+	font-family: 'Times New Roman', Times, serif;
+}
